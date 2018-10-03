@@ -1,0 +1,79 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon May 14 09:24:53 2018
+;; Desktop file format version 208
+;; Emacs version 25.2.1
+
+;; Global section:
+(setq desktop-saved-frameset nil)
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("branch_" "grouper" "()" "a,"))
+(setq register-alist nil)
+(setq file-name-history '("/Users/jayson.barley/development/git_log_etl/git_log_etl/__init__.py" "/Users/jayson.barley/development/git_log_etl/git_log_etl/extract.py" "/Users/jayson.barley/development/git_log_etl/output1.test" "/Users/jayson.barley/development/puppetlabs-pe_infrastructure/git.log" "~/development/git_log_etl/git_log_etl/" "/Users/jayson.barley/development/git_log_etl/git_log_etl/git_lot_etl.py" "~/development/git_log_etl/output.test"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/git_log_etl/git_log_etl/extract.py"
+  "extract.py"
+  'python-mode
+  '(flycheck-mode outline-minor-mode workgroups-mode yas-minor-mode)
+  1358
+  '(1197 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1339 2168 1849 1849 1979 1956 835 835 835 1673 21 1673 1745 1790 1721 1549))))
+
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/git_log_etl/git_log_etl/git_lot_etl.py"
+  "git_lot_etl.py"
+  'python-mode
+  '(flycheck-mode outline-minor-mode workgroups-mode yas-minor-mode)
+  1994
+  '(2020 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (88 1007 2019 1587 894 450 2020 546 2020 2020 2020 88 1963 643 1676 1668))))
+
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/git_log_etl/output1.test"
+  "output1.test"
+  'fundamental-mode
+  '(workgroups-mode yas-minor-mode)
+  479
+  '(479 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (162 479 479 1))))
+
+(desktop-create-buffer 208
+  "/Users/jayson.barley/development/puppetlabs-pe_infrastructure/README.md"
+  "README.md"
+  'fundamental-mode
+  '(git-gutter-mode auto-revert-mode workgroups-mode yas-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/53/jjrjld1x3ss7mksddv55h4800000gq/T/python-41203pKa.py"
+  "python-41203pKa.py"
+  'python-mode
+  '(flycheck-mode outline-minor-mode workgroups-mode yas-minor-mode)
+  217
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+

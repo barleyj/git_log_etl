@@ -1,0 +1,1970 @@
+--92187e4--2018-03-26--Brandon High
+--abe02e9--2018-03-26--Josh Partlow
+20	6	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+0	0	spec/fixtures/manifests/site.pp
+20	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+17	6	spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
+
+--a3bd7a2--2018-03-23--Josh Partlow
+2	17	lib/puppet_x/puppetlabs/meep/config.rb
+46	6	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+50	3	spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
+
+--ebe516f--2018-03-23--cthorn42
+--c2b5216--2018-03-23--Josh Partlow
+4	3	lib/puppet_x/puppetlabs/meep/architecture.rb
+10	5	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+
+--90cbfa9--2018-03-23--Josh Partlow
+19	2	lib/puppet_x/puppetlabs/meep/puppetdb.rb
+2	0	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+19	0	spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
+
+--d9da7c4--2018-03-22--Josh Partlow
+2	2	lib/puppet_x/puppetlabs/meep/validate.rb
+1	1	spec/unit/puppet_x/puppetlabs/meep/validate_spec.rb
+
+--e28cacc--2018-03-22--Josh Partlow
+--993be2c--2018-03-22--Brandon High
+--5435c47--2018-03-21--Brandon High
+--10d516f--2018-03-21--Josh Partlow
+6	3	manifests/agent/mcollective/service.pp
+5	2	manifests/init.pp
+26	3	spec/classes/agent/mcollective/service_spec.rb
+
+--3c50691--2018-03-20--Josh Partlow
+--77dea00--2018-03-20--Brandon High
+1	0	.pmtignore
+
+--23f737e--2018-03-20--Brandon High
+--696c2bc--2018-03-19--Josh Partlow
+11	2	lib/puppet_x/puppetlabs/meep/architecture.rb
+84	0	spec/unit/puppet_x/puppetlabs/meep/architecture_spec.rb
+
+--a7e5eed--2018-03-16--Josh Partlow
+1	1	Gemfile
+23	0	lib/puppet/functions/pe_feature_flags.rb
+17	0	lib/puppet_x/puppetlabs/meep/config.rb
+1	0	spec/fixtures/hiera/feature_flags
+4	0	spec/fixtures/hiera/v1.0/feature_flags/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/feature_flags/hiera.yaml
+4	0	spec/fixtures/hiera/v2.0/feature_flags/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/feature_flags/hiera.yaml
+27	0	spec/functions/pe_feature_flags_spec.rb
+0	52	spec/lib/puppet/util/puppetdb.rb
+0	577	spec/shared/contexts.rb
+18	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--9fdb76c--2018-03-20--Josh Partlow
+--47bfdcc--2018-03-14--Josh Partlow
+2	2	lib/puppet_x/puppetlabs/meep/config.rb
+0	378	lib/puppet_x/puppetlabs/meep/recover.rb
+393	0	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+0	985	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+984	0	spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
+
+--7629e05--2018-03-13--Josh Partlow
+1	1	Gemfile
+1	1	lib/puppet_x/puppetlabs/meep/architecture.rb
+26	14	lib/puppet_x/puppetlabs/meep/config.rb
+81	12	lib/puppet_x/puppetlabs/meep/recover.rb
+2	0	spec/fixtures/hiera/v2.0/custom-roles/conf.d/pe.conf
+81	8	spec/shared/contexts.rb
+85	19	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+197	14	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--0c111c5--2018-03-13--barleyj-puppet
+--e665597--2018-03-09--Josh Partlow
+96	3	lib/puppet_x/puppetlabs/meep/architecture.rb
+0	2	lib/puppet_x/puppetlabs/meep/defaults.rb
+29	91	lib/puppet_x/puppetlabs/meep/recover.rb
+1	1	spec/fixtures/hiera/v1.0/external-services/conf.d/pe.conf
+105	10	spec/shared/contexts.rb
+189	0	spec/unit/puppet_x/puppetlabs/meep/architecture_spec.rb
+204	30	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+129	54	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--31f8b21--2018-03-09--Josh Partlow
+77	0	lib/puppet_x/puppetlabs/meep/architecture.rb
+85	0	spec/unit/puppet_x/puppetlabs/meep/architecture_spec.rb
+
+--29e07d3--2018-03-09--Josh Partlow
+--bfd6042--2018-03-09--Christopher Thorn
+1	1	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--dc52c5f--2018-03-08--Josh Partlow
+1	1	.travis.yml
+8	8	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+0	2	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--f20f926--2018-02-14--Josh Partlow
+0	10	lib/puppet_x/puppetlabs/meep/defaults.rb
+97	12	lib/puppet_x/puppetlabs/meep/puppetdb.rb
+214	38	lib/puppet_x/puppetlabs/meep/recover.rb
+19	3	spec/lib/puppet/util/puppetdb.rb
+409	0	spec/shared/contexts.rb
+32	2	spec/unit/puppet_x/puppetlabs/meep/puppetdb_spec.rb
+598	306	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--4ee4581--2017-11-14--Josh Partlow
+2	0	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--4feb490--2017-11-14--Josh Partlow
+7	2	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--7e47edd--2017-11-14--Josh Partlow
+11	1	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--c1f188f--2018-03-06--Brandon High
+--f236ff5--2018-02-16--Josh Partlow
+117	66	lib/puppet_x/puppetlabs/meep/defaults.rb
+
+--b60c096--2018-02-14--Josh Partlow
+46	0	lib/puppet_x/puppetlabs/meep/puppetdb.rb
+36	0	spec/lib/puppet/util/puppetdb.rb
+2	0	spec/spec_helper.rb
+30	0	spec/unit/puppet_x/puppetlabs/meep/puppetdb_spec.rb
+
+--387ea50--2018-02-13--Josh Partlow
+37	2	lib/puppet_x/puppetlabs/meep/recover.rb
+40	13	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--be80dfd--2018-02-13--Josh Partlow
+27	0	spec/fixtures/hiera/v1.0/custom-roles/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/custom-roles/hiera.yaml
+17	0	spec/fixtures/hiera/v1.0/external-services/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/external-services/hiera.yaml
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-01.pdx.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-02.pdx.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-03.pdx.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-04.pdx.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-05.bfs.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-06.bfs.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-07.bfs.rspec.conf
+4	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/amq-08.bfs.rspec.conf
+6	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/hub-01.pdx.rspec.conf
+6	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/hub-02.pdx.rspec.conf
+6	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/hub-03.bfs.rspec.conf
+6	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/nodes/hub-04.bfs.rspec.conf
+70	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/roles/mco_broker_bfs.conf
+1	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/roles/mco_broker_pdx.conf
+1	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/roles/mco_hub_bfs.conf
+1	0	spec/fixtures/hiera/v1.0/multi-hub/conf.d/roles/mco_hub_pdx.conf
+1	0	spec/fixtures/hiera/v1.0/multi-hub/hiera.yaml
+4	0	spec/fixtures/hiera/v1.0/overrides/conf.d/nodes/puppetdb2.rspec.conf
+14	0	spec/fixtures/hiera/v1.0/overrides/conf.d/pe.conf
+3	0	spec/fixtures/hiera/v1.0/overrides/conf.d/roles/pe_role::split::puppetdb.conf
+1	0	spec/fixtures/hiera/v1.0/overrides/hiera.yaml
+16	0	spec/fixtures/hiera/v1.0/replica/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/replica/hiera.yaml
+16	0	spec/fixtures/hiera/v1.0/split/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/split/hiera.yaml
+
+--9a2f319--2018-02-12--Josh Partlow
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+143	4	lib/puppet_x/puppetlabs/meep/recover.rb
+392	3	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--66e38bc--2018-01-16--Josh Partlow
+31	2	lib/puppet_x/puppetlabs/meep/config.rb
+21	0	lib/puppet_x/puppetlabs/meep/recover.rb
+16	0	spec/fixtures/hiera/v1.0/mono/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v1.0/mono/hiera.yaml
+3	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+21	0	spec/unit/puppet_x/puppetlabs/meep/recover_spec.rb
+
+--01cd87b--2018-02-12--Josh Partlow
+1	1	Gemfile
+
+--aaacdf8--2018-02-07--Jenkins CI
+--8028059--2018-02-07--barleyj-puppet
+--44cde33--2018-01-31--Josh Partlow
+1	1	files/puppet-infrastructure
+6	6	manifests/puppet_infra_shims.pp
+
+--753d512--2018-01-10--Josh Partlow
+1	0	spec/fixtures/hiera/custom-roles
+0	25	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+0	8	spec/fixtures/hiera/custom-roles/hiera.yaml
+1	0	spec/fixtures/hiera/external-services
+0	13	spec/fixtures/hiera/external-services/conf.d/pe.conf
+0	8	spec/fixtures/hiera/external-services/hiera.yaml
+15	0	spec/fixtures/hiera/hiera.yaml
+1	0	spec/fixtures/hiera/mono
+0	174	spec/fixtures/hiera/mono/conf.d/pe.conf
+0	8	spec/fixtures/hiera/mono/hiera.yaml
+1	0	spec/fixtures/hiera/multi-hub
+0	67	spec/fixtures/hiera/multi-hub/conf.d/pe.conf
+0	1	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_broker_bfs.conf
+0	1	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_broker_pdx.conf
+0	1	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_hub_bfs.conf
+0	1	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_hub_pdx.conf
+0	9	spec/fixtures/hiera/multi-hub/hiera.yaml
+1	0	spec/fixtures/hiera/overrides
+0	4	spec/fixtures/hiera/overrides/conf.d/nodes/puppetdb2.rspec.conf
+0	15	spec/fixtures/hiera/overrides/conf.d/pe.conf
+0	3	spec/fixtures/hiera/overrides/conf.d/roles/pe_role::split::puppetdb.conf
+0	9	spec/fixtures/hiera/overrides/hiera.yaml
+1	0	spec/fixtures/hiera/replica
+0	14	spec/fixtures/hiera/replica/conf.d/pe.conf
+0	8	spec/fixtures/hiera/replica/hiera.yaml
+1	0	spec/fixtures/hiera/split
+0	12	spec/fixtures/hiera/split/conf.d/pe.conf
+0	8	spec/fixtures/hiera/split/hiera.yaml
+25	0	spec/fixtures/hiera/v2.0/custom-roles/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/custom-roles/hiera.yaml
+13	0	spec/fixtures/hiera/v2.0/external-services/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/external-services/hiera.yaml
+174	0	spec/fixtures/hiera/v2.0/mono/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/mono/hiera.yaml
+67	0	spec/fixtures/hiera/v2.0/multi-hub/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/multi-hub/conf.d/roles/mco_broker_bfs.conf
+1	0	spec/fixtures/hiera/v2.0/multi-hub/conf.d/roles/mco_broker_pdx.conf
+1	0	spec/fixtures/hiera/v2.0/multi-hub/conf.d/roles/mco_hub_bfs.conf
+1	0	spec/fixtures/hiera/v2.0/multi-hub/conf.d/roles/mco_hub_pdx.conf
+1	0	spec/fixtures/hiera/v2.0/multi-hub/hiera.yaml
+4	0	spec/fixtures/hiera/v2.0/overrides/conf.d/nodes/puppetdb2.rspec.conf
+15	0	spec/fixtures/hiera/v2.0/overrides/conf.d/pe.conf
+3	0	spec/fixtures/hiera/v2.0/overrides/conf.d/roles/pe_role::split::puppetdb.conf
+1	0	spec/fixtures/hiera/v2.0/overrides/hiera.yaml
+14	0	spec/fixtures/hiera/v2.0/replica/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/replica/hiera.yaml
+12	0	spec/fixtures/hiera/v2.0/split/conf.d/pe.conf
+1	0	spec/fixtures/hiera/v2.0/split/hiera.yaml
+42	29	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--c1bedb1--2018-01-05--Brandon High
+--8f3526d--2018-01-04--Josh Partlow
+16	0	hiera.yaml
+1	1	lib/puppet/functions/pe_infrastructure/data.rb
+1	2	metadata.json
+6	6	spec/functions/data_spec.rb
+
+--fc9dba0--2017-12-15--Josh Partlow
+--bece77b--2017-12-15--Josh Partlow
+--78433ff--2017-12-15--Josh Partlow
+--eb4895b--2017-12-15--Brandon High
+0	1	Gemfile
+0	1	Rakefile
+
+--f769726--2017-12-11--Brandon High
+--d5ec8d0--2017-12-08--Josh Partlow
+3	1	manifests/agent/meep.pp
+4	2	manifests/enterprise/shims.pp
+9	0	manifests/params.pp
+
+--a3a1bfc--2017-12-07--Josh Partlow
+10	0	manifests/agent/meep.pp
+1	1	manifests/enterprise/shims.pp
+
+--75768f3--2017-11-30--Josh Partlow
+--b5d6f1a--2017-11-30--Josh Partlow
+1	1	manifests/enterprise/shims.pp
+
+--a19d203--2017-11-28--Josh Partlow
+--3a479ad--2017-11-28--Josh Partlow
+15	0	lib/puppet/functions/pe_is_upgrading.rb
+17	0	lib/puppet/functions/pe_is_upgrading_from.rb
+23	0	lib/puppet/functions/pe_postgres_migration_versions.rb
+16	0	spec/functions/pe_is_upgrading_from_spec.rb
+16	0	spec/functions/pe_is_upgrading_spec.rb
+32	0	spec/functions/pe_postgres_migration_versions_spec.rb
+
+--8c52431--2017-11-28--Josh Partlow
+17	6	lib/puppet_x/puppetlabs/meep/config.rb
+2	9	spec/classes/agent/meep/run_spec.rb
+2	8	spec/functions/pe_is_bootstrapping_to_spec.rb
+1	8	spec/functions/pe_meep_is_executing_spec.rb
+18	3	spec/shared/contexts.rb
+2	2	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+1	8	spec/unit/puppet_x/puppetlabs/meep/hiera_spec.rb
+
+--d801f49--2017-11-28--Josh Partlow
+4	0	lib/puppet_x/puppetlabs/meep/scope.rb
+
+--d68569c--2017-11-28--Josh Partlow
+6	0	lib/puppet_x/puppetlabs/meep/config.rb
+
+--5a8dbd0--2017-11-20--Brandon High
+--c032e89--2017-11-17--Josh Partlow
+24	6	lib/puppet_x/puppetlabs/meep/config.rb
+2	2	spec/functions/pe_is_bootstrapping_to_spec.rb
+2	2	spec/shared/contexts.rb
+7	3	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--b66b1ad--2017-11-14--Josh Partlow
+6	1	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--9fac3c3--2017-11-14--Josh Partlow
+7	2	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--d845c6e--2017-11-14--Josh Partlow
+7	0	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--92fe471--2017-11-02--Josh Partlow
+3	1	.travis.yml
+2	0	Rakefile
+2	2	manifests/agent.pp
+2	2	manifests/agent/mcollective.pp
+1	1	manifests/agent/meep.pp
+3	3	manifests/enterprise.pp
+2	2	manifests/enterprise/master/keypair.pp
+2	2	manifests/enterprise/shims.pp
+2	2	manifests/enterprise/sync/configuration.pp
+
+--399d737--2017-11-02--Josh Partlow
+2	7	Gemfile
+3	3	manifests/agent.pp
+4	4	manifests/agent/mcollective/server/certs.pp
+1	1	manifests/agent/mcollective/server/facter.pp
+3	3	manifests/agent/mcollective/server/logs.pp
+1	1	manifests/agent/mcollective/server/plugins.pp
+2	2	manifests/agent/pxp_agent.pp
+1	1	manifests/enterprise/repo.pp
+11	8	manifests/enterprise/repo/config.pp
+22	22	manifests/params.pp
+2	2	manifests/symlinks.pp
+3	4	spec/classes/agent/mcollective/server/certs_spec.rb
+7	10	spec/classes/agent/mcollective/server/facter_spec.rb
+3	4	spec/classes/agent/mcollective/server/logs_spec.rb
+3	4	spec/classes/agent/mcollective/server/plugins_spec.rb
+7	9	spec/classes/agent/mcollective/server_spec.rb
+2	3	spec/classes/agent/mcollective_spec.rb
+2	15	spec/classes/agent/pxp_agent_spec.rb
+1	1	spec/classes/agent_spec.rb
+0	0	spec/fixtures/manifests/site.pp
+2	2	templates/mcollective/server.cfg.erb
+
+--3162d41--2017-11-01--Josh Partlow
+1	1	manifests/agent/mcollective/server.pp
+
+--0c4ce90--2017-11-01--Josh Partlow
+2	2	manifests/agent/mcollective/server/logs.pp
+1	1	manifests/params.pp
+1	1	spec/classes/agent/mcollective/server/logs_spec.rb
+1	1	spec/classes/agent/mcollective/server_spec.rb
+
+--6c7050a--2017-11-01--Josh Partlow
+2	1	lib/shared/aio_build.rb
+144	0	spec/unit/facter/platform_tag_spec.rb
+7	0	spec/unit/shared/aio_build_spec.rb
+
+--3a5ff66--2017-11-01--Josh Partlow
+27	1	files/mcollective/plugins/agent/package.ddl
+12	0	files/mcollective/plugins/agent/package.rb
+6	2	files/mcollective/plugins/agent/puppet.ddl
+2	2	files/mcollective/plugins/agent/service.ddl
+20	5	files/mcollective/plugins/application/package.rb
+1	1	files/mcollective/plugins/data/package_data.ddl
+16	1	files/mcollective/plugins/mco_plugin_versions
+9	0	files/mcollective/plugins/util/actionpolicy.ddl
+77	0	files/mcollective/plugins/util/package/packagehelpers.rb
+1	1	files/mcollective/plugins/util/puppet_agent_mgr.rb
+40	0	files/mcollective/plugins/util/service/serviceservice.rb
+1	1	files/mcollective/plugins/validator/service_name.rb
+
+--1c1123c--2017-11-01--Josh Partlow
+0	9	files/mcollective/plugins/security/sshkey.ddl
+0	390	files/mcollective/plugins/security/sshkey.rb
+1	1	update_mco_plugins.sh
+
+--7bb8e18--2017-11-01--Josh Partlow
+6	0	README.md
+2	0	lib/puppet/functions/pe_infrastructure/data.rb
+7	0	manifests/agent.pp
+10	1	manifests/agent/pxp_agent.pp
+2	0	manifests/params.pp
+37	0	spec/classes/agent/pxp_agent_spec.rb
+14	0	spec/classes/agent_spec.rb
+3	1	spec/functions/data_spec.rb
+1	0	spec/spec_helper.rb
+
+--669efc1--2017-11-01--Josh Partlow
+5	0	lib/facter/platform_tag.rb
+
+--19e448c--2017-11-01--Josh Partlow
+12	18	manifests/agent/mcollective/server.pp
+7	23	spec/classes/agent/mcollective/server_spec.rb
+
+--4f312cd--2017-11-01--Josh Partlow
+7	0	lib/facter/platform_tag.rb
+
+--6e1b8e6--2017-11-01--Josh Partlow
+56	0	files/mcollective/plugins/mco_plugin_versions
+1	1	files/mcollective/plugins/security/sshkey.ddl
+10	3	files/mcollective/plugins/security/sshkey.rb
+
+--f4712c1--2017-10-31--Josh Partlow
+13	2	manifests/agent/mcollective/server.pp
+33	0	spec/classes/agent/mcollective/server_spec.rb
+0	0	spec/fixtures/manifests/site.pp
+1	1	templates/mcollective/server.cfg.erb
+
+--d379568--2017-11-07--Josh Partlow
+--3ea00a8--2017-11-03--Josh Partlow
+--d6592e8--2017-11-03--Brandon High
+1	0	.travis.yml
+
+--66ff7ca--2017-10-27--Brandon High
+--3a943eb--2017-10-27--Jenkins CI
+--bef30a6--2017-10-25--Mark Butcher
+--59e20c4--2017-10-23--Josh Partlow
+0	1	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+4	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--cc5d328--2017-10-23--Brandon High
+--27abe78--2017-10-23--Brandon High
+--be65353--2017-10-18--Josh Partlow
+--963d015--2017-10-18--Josh Partlow
+3	3	Gemfile
+0	3	spec/fixtures/manifests/site.pp
+4	1	spec/functions/pe_services_list_spec.rb
+0	1	spec/spec_helper.rb
+2	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--377f5f8--2017-10-17--Brandon High
+--360fa92--2017-10-11--Josh Partlow
+--1eec12f--2017-10-11--Matthaus Owens
+4	4	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--73387c6--2017-10-11--Matthaus Owens
+17	5	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--ac15a5c--2017-10-10--Josh Partlow
+--39b73cb--2017-10-10--Past Haus
+5	17	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--bf78963--2017-10-09--libbymo
+--258edbb--2017-10-03--barleyj-puppet
+--5c5e6df--2017-10-03--Brandon High
+4	2	metadata.json
+
+--2a9d9cc--2017-10-03--Brandon High
+1	0	Gemfile
+2	0	Rakefile
+
+--1b49c1e--2017-09-29--Josh Partlow
+1	1	metadata.json
+
+--8efb528--2017-09-26--Matthaus Owens
+17	5	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--318ee62--2017-09-26--Jayson Barley
+--88d0193--2017-09-21--Josh Partlow
+--394774a--2017-09-21--Josh Partlow
+3	1	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--30a80d1--2017-09-20--Matthaus Owens
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+24	12	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--c801057--2017-09-19--Matthaus Owens
+2	24	lib/puppet_x/puppetlabs/meep/config.rb
+26	0	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--fe54e96--2017-09-19--Matthaus Owens
+13	7	lib/puppet_x/puppetlabs/meep/config.rb
+
+--b2486b0--2017-09-19--Matthaus Owens
+11	8	lib/puppet_x/puppetlabs/meep/config.rb
+
+--977febd--2017-09-18--Matthaus Owens
+1	62	lib/puppet_x/puppetlabs/meep/config.rb
+68	0	lib/puppet_x/puppetlabs/meep/hiera_adapter.rb
+
+--b21a924--2017-09-18--Josh Partlow
+--184a52b--2017-09-18--Matthaus Owens
+0	21	spec/functions/pe_compiling_server_version.rb
+
+--edb144d--2017-09-18--Matthaus Owens
+6	6	lib/puppet/functions/pe_infrastructure/data.rb
+6	6	spec/functions/data_spec.rb
+
+--28cdd96--2017-09-18--Matthaus Owens
+3	2	Gemfile
+65	4	lib/puppet/functions/pe_infrastructure/data.rb
+15	0	lib/puppet/functions/pe_is_bootstrapping_to.rb
+31	0	lib/puppet/functions/pe_replication_mode.rb
+38	30	lib/puppet/functions/pe_services_list.rb
+170	497	lib/puppet_x/puppetlabs/meep/config.rb
+203	0	lib/puppet_x/puppetlabs/meep/config/services.rb
+449	0	lib/puppet_x/puppetlabs/meep/defaults.rb
+54	0	lib/puppet_x/puppetlabs/meep/scope.rb
+245	0	lib/puppet_x/puppetlabs/meep/validate.rb
+13	2	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+1	2	spec/fixtures/hiera/mono/conf.d/pe.conf
+67	0	spec/fixtures/hiera/multi-hub/conf.d/pe.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_broker_bfs.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_broker_pdx.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_hub_bfs.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_hub_pdx.conf
+9	0	spec/fixtures/hiera/multi-hub/hiera.yaml
+3	0	spec/fixtures/hiera/overrides/conf.d/nodes/puppetdb2.rspec.conf
+5	0	spec/fixtures/hiera/overrides/conf.d/pe.conf
+3	0	spec/fixtures/hiera/overrides/conf.d/roles/pe_role::split::puppetdb.conf
+1	0	spec/fixtures/hiera/overrides/hiera.yaml
+1	1	spec/fixtures/hiera/replica/conf.d/pe.conf
+19	13	spec/functions/data_spec.rb
+21	0	spec/functions/pe_compiling_server_version.rb
+5	3	spec/functions/pe_infrastructure_nodes_spec.rb
+20	0	spec/functions/pe_is_bootstrapping_to_spec.rb
+5	0	spec/functions/pe_meep_is_executing_spec.rb
+44	0	spec/functions/pe_replication_mode_spec.rb
+150	140	spec/functions/pe_services_list_spec.rb
+74	0	spec/shared/contexts.rb
+2	0	spec/spec_helper.rb
+385	0	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+315	409	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+220	0	spec/unit/puppet_x/puppetlabs/meep/hiera_spec.rb
+410	0	spec/unit/puppet_x/puppetlabs/meep/validate_spec.rb
+
+--399a29e--2017-09-18--Matthaus Owens
+5	0	Gemfile
+0	3	spec/fixtures/manifests/site.pp
+1	1	spec/spec_helper.rb
+
+--bc9d29c--2017-09-18--Josh Partlow
+--987abeb--2017-09-18--Matthaus Owens
+2	5	Gemfile
+0	3	spec/fixtures/manifests/site.pp
+0	1	spec/spec_helper.rb
+
+--90cad27--2017-09-18--Matthaus Owens
+10	2	Gemfile
+4	0	spec/classes/enterprise/master/mcollective_spec.rb
+4	0	spec/defines/enterprise/master/keypair_spec.rb
+2	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--d1d1066--2017-09-07--Brandon High
+--ca56c58--2017-09-06--Josh Partlow
+0	4	lib/puppet_x/puppetlabs/meep/config.rb
+5	0	lib/puppet_x/puppetlabs/meep/config/modify.rb
+
+--d818933--2017-08-08--Josh Partlow
+--29f9d49--2017-08-02--Josh Partlow
+1	1	Gemfile
+
+--218e8ff--2017-07-25--Josh Partlow
+1	1	manifests/puppet_infra_shims.pp
+
+--10c1883--2017-04-27--Mark Butcher
+--0b173df--2017-04-26--Josh Partlow
+2	2	Gemfile
+
+--1aab0aa--2017-04-25--Britt Gresham
+--a18591c--2017-04-24--Josh Partlow
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+1	1	spec/fixtures/hiera/mono/conf.d/pe.conf
+1	1	spec/fixtures/hiera/replica/conf.d/pe.conf
+1	1	spec/unit/puppet_x/puppetlabs/meep/hiera_spec.rb
+
+--fc94516--2017-04-21--Josh Partlow
+1	1	update_mco_plugins.sh
+
+--13c0a99--2017-04-21--Josh Partlow
+15	11	manifests/agent.pp
+13	3	spec/classes/agent_spec.rb
+
+--b6d2568--2017-04-21--Josh Partlow
+22	11	manifests/agent.pp
+19	0	spec/classes/agent_spec.rb
+
+--454c34f--2017-04-21--Josh Partlow
+1	1	manifests/agent/pxp_agent.pp
+
+--518398a--2017-04-21--Josh Partlow
+83	0	lib/puppet/provider/pe_file_line/ruby.rb
+85	0	lib/puppet/type/pe_file_line.rb
+6	0	manifests/agent/mcollective.pp
+35	0	manifests/agent/mcollective/server.pp
+56	1	spec/classes/agent/mcollective/server_spec.rb
+11	1	spec/classes/agent/mcollective_spec.rb
+
+--9235899--2017-04-21--Josh Partlow
+3	3	manifests/agent/mcollective/server/certs.pp
+1	1	manifests/enterprise/master/keypair.pp
+
+--a5ec89f--2017-04-21--Josh Partlow
+1	1	files/mcollective/plugins/agent/puppet.ddl
+1	1	files/mcollective/plugins/agent/service.ddl
+98	0	files/mcollective/plugins/mco_plugin_versions
+293	106	files/mcollective/plugins/util/actionpolicy.rb
+
+--3853758--2017-04-20--Josh Partlow
+--2df0cd8--2017-04-19--Britt Gresham
+--df93559--2017-04-12--Britt Gresham
+--eb32865--2017-04-11--Eric Williamson
+--6193d16--2017-03-24--Josh Partlow
+35	9	lib/puppet_x/puppetlabs/meep/config.rb
+4	0	lib/puppet_x/puppetlabs/meep/scope.rb
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_broker_bfs.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_broker_pdx.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_hub_bfs.conf
+1	0	spec/fixtures/hiera/multi-hub/conf.d/roles/mco_hub_pdx.conf
+1	0	spec/fixtures/hiera/multi-hub/hiera.yaml
+3	0	spec/fixtures/hiera/overrides/conf.d/nodes/puppetdb2.rspec.conf
+5	0	spec/fixtures/hiera/overrides/conf.d/pe.conf
+3	0	spec/fixtures/hiera/overrides/conf.d/roles/pe_role::split::puppetdb.conf
+1	0	spec/fixtures/hiera/overrides/hiera.yaml
+32	0	spec/shared/contexts.rb
+10	10	spec/spec_helper.rb
+2	15	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+79	274	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+233	0	spec/unit/puppet_x/puppetlabs/meep/hiera_spec.rb
+
+--f3ee620--2017-03-24--Josh Partlow
+55	61	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--21e5e0d--2017-04-04--Josh Partlow
+--4a40139--2017-03-31--Britt Gresham
+0	3	templates/mcollective/server.cfg.erb
+
+--0a1b90c--2017-03-31--Britt Gresham
+6	8	manifests/agent/pxp_agent.pp
+
+--0072f24--2017-03-31--Britt Gresham
+19	4	manifests/enterprise/repo/config.pp
+21	7	spec/classes/enterprise/repo/config_spec.rb
+
+--ee936ff--2017-03-31--Britt Gresham
+5	0	manifests/agent/pxp_agent.pp
+1	3	manifests/params.pp
+9	3	spec/classes/agent/pxp_agent_spec.rb
+
+--b5dacb1--2017-03-31--Britt Gresham
+12	2	manifests/agent/pxp_agent.pp
+16	0	spec/classes/agent/pxp_agent_spec.rb
+
+--d3a978e--2017-03-31--Britt Gresham
+20	5	manifests/agent.pp
+2	2	manifests/agent/pxp_agent.pp
+1	0	manifests/params.pp
+9	1	spec/classes/agent/pxp_agent_spec.rb
+48	3	spec/classes/agent_spec.rb
+
+--2b07fca--2017-04-03--Britt Gresham
+6	0	manifests/agent/pxp_agent.pp
+18	0	spec/classes/agent/pxp_agent_spec.rb
+
+--b35372a--2017-03-24--Britt Gresham
+8	5	lib/puppet/parser/functions/pe_empty.rb
+
+--a120736--2017-03-24--Britt Gresham
+1	1	files/mcollective/plugins/agent/puppet.ddl
+11	7	files/mcollective/plugins/agent/puppet.rb
+52	0	files/mcollective/plugins/mco_plugin_versions
+1	1	files/mcollective/plugins/util/puppet_agent_mgr.rb
+17	9	files/mcollective/plugins/util/puppetrunner.rb
+1	1	files/mcollective/plugins/validator/service_name.rb
+
+--20de8c3--2017-03-24--Britt Gresham
+71	0	lib/facter/inventory.rb
+14	0	manifests/agent.pp
+6	0	manifests/params.pp
+27	0	spec/classes/agent_spec.rb
+60	0	spec/unit/facter/inventory_spec.rb
+
+--ec19cad--2017-03-31--Brandon High
+--a6b7b37--2017-03-29--Josh Partlow
+--251e504--2017-03-29--Brandon High
+78	191	spec/unit/puppet_x/puppetlabs/meep/validate_spec.rb
+
+--8e85e65--2017-03-29--Josh Partlow
+22	15	manifests/agent/mcollective.pp
+8	0	spec/classes/agent/mcollective_spec.rb
+
+--07fe2a4--2017-03-28--Josh Partlow
+--d28a936--2017-03-28--eric.williamson
+1	1	Gemfile
+
+--10c6594--2017-03-27--eric.williamson
+5	4	lib/puppet_x/puppetlabs/meep/config/services.rb
+25	0	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+
+--20df99a--2017-03-23--eric.williamson
+29	0	lib/puppet_x/puppetlabs/meep/config/services.rb
+0	24	spec/functions/pe_services_list_spec.rb
+70	18	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+
+--c7dd420--2017-03-27--Brandon High
+73	28	lib/puppet_x/puppetlabs/meep/validate.rb
+271	3	spec/unit/puppet_x/puppetlabs/meep/validate_spec.rb
+
+--e9cef25--2017-03-24--Josh Partlow
+--2ff89b6--2017-03-24--Brandon High
+22	0	lib/puppet_x/puppetlabs/meep/validate.rb
+
+--a6b22c6--2017-03-24--Brandon High
+--a1a79fd--2017-03-24--Josh Partlow
+--ca99bce--2017-03-21--Josh Partlow
+14	3	lib/puppet_x/puppetlabs/meep/config.rb
+12	1	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+67	0	spec/fixtures/hiera/multi-hub/conf.d/pe.conf
+8	0	spec/fixtures/hiera/multi-hub/hiera.yaml
+2	0	spec/functions/pe_infrastructure_nodes_spec.rb
+100	3	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--c5b85c7--2017-03-09--eric.williamson
+1	0	lib/puppet_x/puppetlabs/meep/config/services.rb
+10	0	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+
+--34202b1--2017-03-24--Brandon High
+0	2	lib/puppet_x/puppetlabs/meep/validate.rb
+
+--674ea3b--2017-03-09--eric.williamson
+31	0	lib/puppet/functions/pe_replication_mode.rb
+44	0	spec/functions/pe_replication_mode_spec.rb
+
+--076e8b3--2017-03-24--Brandon High
+--e276366--2017-03-24--Brandon High
+180	0	lib/puppet_x/puppetlabs/meep/validate.rb
+255	0	spec/unit/puppet_x/puppetlabs/meep/validate_spec.rb
+
+--2582de6--2017-03-23--eric.williamson
+46	0	lib/puppet_x/puppetlabs/meep/defaults.rb
+38	0	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+
+--03bc8a8--2017-03-16--Britt Gresham
+--1aea4ef--2017-03-15--Josh Partlow
+1	1	Gemfile
+
+--da15f59--2017-03-14--Josh Partlow
+39	8	lib/puppet_x/puppetlabs/meep/config.rb
+0	9	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+9	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--84b96b7--2017-03-14--Josh Partlow
+58	105	lib/puppet_x/puppetlabs/meep/config.rb
+144	90	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--6aaa930--2017-03-14--Josh Partlow
+1	1	lib/puppet_x/puppetlabs/meep/config/services.rb
+29	29	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--3e7370e--2017-03-14--Josh Partlow
+19	19	spec/functions/pe_services_list_spec.rb
+4	0	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+5	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--39c0652--2017-03-14--Josh Partlow
+1	1	Gemfile
+0	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--fba571b--2017-03-07--Josh Partlow
+--fcb6f58--2017-02-24--eric.williamson
+43	43	lib/puppet_x/puppetlabs/meep/defaults.rb
+
+--77bf17e--2017-02-24--eric.williamson
+1	1	lib/puppet_x/puppetlabs/meep/config/services.rb
+8	0	lib/puppet_x/puppetlabs/meep/defaults.rb
+
+--f5fe62f--2017-02-23--eric.williamson
+38	30	lib/puppet/functions/pe_services_list.rb
+0	38	lib/puppet_x/puppetlabs/meep/config.rb
+114	50	lib/puppet_x/puppetlabs/meep/config/services.rb
+16	9	lib/puppet_x/puppetlabs/meep/defaults.rb
+94	94	spec/functions/pe_services_list_spec.rb
+244	59	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+
+--76fe9bb--2017-02-22--eric.williamson
+4	105	lib/puppet_x/puppetlabs/meep/config.rb
+108	0	lib/puppet_x/puppetlabs/meep/config/services.rb
+93	0	spec/unit/puppet_x/puppetlabs/meep/config/services_spec.rb
+0	69	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--3f9dca6--2017-02-22--eric.williamson
+30	8	lib/puppet_x/puppetlabs/meep/defaults.rb
+
+--0e6c175--2017-02-22--eric.williamson
+1	359	lib/puppet_x/puppetlabs/meep/config.rb
+366	0	lib/puppet_x/puppetlabs/meep/defaults.rb
+
+--48d42c1--2017-03-07--Britt Gresham
+--c7fa380--2017-02-21--eric.williamson
+94	46	lib/puppet_x/puppetlabs/meep/config.rb
+48	14	spec/functions/pe_services_list_spec.rb
+50	70	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--f3f653b--2017-02-21--eric.williamson
+60	0	lib/puppet_x/puppetlabs/meep/config.rb
+
+--b61c442--2017-02-21--eric.williamson
+3	3	lib/puppet_x/puppetlabs/meep/config.rb
+
+--3a1cc35--2017-03-07--Josh Partlow
+1	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--76d9d2e--2017-02-21--Josh Partlow
+4	1	lib/puppet_x/puppetlabs/meep/config.rb
+33	31	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--0029ac4--2017-02-21--Josh Partlow
+0	8	spec/spec_helper.rb
+
+--cba668d--2017-01-06--Thomas Hallgren
+0	70	lib/hiera/backend/hocon_backend.rb
+
+--51083b1--2017-03-07--Britt Gresham
+--9eb3782--2017-03-07--Josh Partlow
+9	7	manifests/enterprise/master/keypair.pp
+6	0	spec/defines/enterprise/master/keypair_spec.rb
+
+--13549d1--2017-03-03--Josh Partlow
+1	1	manifests/enterprise.pp
+31	15	manifests/enterprise/master/keypair.pp
+2	2	manifests/enterprise/master/mcollective.pp
+72	56	spec/classes/enterprise/master/mcollective_spec.rb
+3	0	spec/classes/enterprise_spec.rb
+86	0	spec/defines/enterprise/master/keypair_spec.rb
+
+--aaf8d1d--2017-03-02--Josh Partlow
+1	1	Gemfile
+
+--1c539d4--2017-02-28--Josh Partlow
+2	2	manifests/enterprise.pp
+10	6	manifests/enterprise/master/mcollective.pp
+16	0	spec/classes/enterprise/master/mcollective_spec.rb
+
+--c0c3a8f--2017-02-28--Josh Partlow
+2	0	lib/puppet_x/puppetlabs/meep/config.rb
+
+--f5e9e3a--2017-02-28--Josh Partlow
+13	0	manifests/enterprise.pp
+23	9	manifests/enterprise/master/keypair.pp
+29	36	manifests/enterprise/master/mcollective.pp
+68	20	spec/classes/enterprise/master/mcollective_spec.rb
+0	22	spec/classes/enterprise/repo_spec.rb
+22	0	spec/shared/contexts.rb
+
+--9162b97--2017-02-28--Josh Partlow
+44	0	manifests/enterprise/master/keypair.pp
+46	0	manifests/enterprise/master/mcollective.pp
+32	0	spec/classes/enterprise/master/mcollective_spec.rb
+
+--991cefc--2017-02-24--Josh Partlow
+7	1	manifests/params.pp
+
+--f5a12db--2017-02-13--Josh Partlow
+3	0	lib/puppet_x/puppetlabs/meep/config.rb
+9	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--55fca6c--2017-02-13--Josh Partlow
+5	7	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--1e16cfa--2017-03-06--Britt Gresham
+--8381e2a--2017-03-06--Britt Gresham
+--78f0601--2017-03-06--Josh Partlow
+--ff4d5f0--2017-03-06--Britt Gresham
+11	0	manifests/agent/pxp_agent.pp
+
+--21507dc--2017-02-22--Brandon High
+--a0326d9--2017-02-21--Britt Gresham
+--ca237fe--2017-02-17--Eric Williamson
+--1769a96--2017-02-17--Josh Partlow
+0	5	lib/puppet_x/puppetlabs/meep/config.rb
+93	30	lib/puppet_x/puppetlabs/meep/config/modify.rb
+28	40	spec/unit/puppet_x/puppetlabs/meep/config/modify_spec.rb
+
+--5ae2b8a--2017-01-06--Thomas Hallgren
+0	118	lib/meep_hiera.rb
+0	360	lib/meep_hiera/backend.rb
+0	70	lib/meep_hiera/backend/hocon_backend.rb
+0	58	lib/meep_hiera/backend/json_backend.rb
+0	63	lib/meep_hiera/backend/yaml_backend.rb
+0	91	lib/meep_hiera/config.rb
+0	13	lib/meep_hiera/console_logger.rb
+0	4	lib/meep_hiera/error.rb
+0	41	lib/meep_hiera/fallback_logger.rb
+0	86	lib/meep_hiera/filecache.rb
+0	121	lib/meep_hiera/interpolate.rb
+0	8	lib/meep_hiera/noop_logger.rb
+0	17	lib/meep_hiera/puppet_logger.rb
+0	20	lib/meep_hiera/recursive_guard.rb
+0	73	lib/meep_hiera/util.rb
+0	89	lib/meep_hiera/version.rb
+0	1	lib/puppet_x/puppetlabs/meep/config.rb
+
+--265f055--2017-01-05--Thomas Hallgren
+1	0	.gitignore
+23	22	lib/puppet_x/puppetlabs/meep/config.rb
+30	8	lib/puppet_x/puppetlabs/meep/meep_scope.rb
+1	0	spec/spec_helper.rb
+12	5	spec/unit/puppet_x/puppetlabs/meep/config/modify_spec.rb
+50	36	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--4dc9b24--2017-02-08--Eric Williamson
+--a3a3f95--2017-02-07--Josh Partlow
+24	7	manifests/enterprise/repo/config.pp
+10	0	spec/classes/enterprise/repo/config_spec.rb
+
+--8a5b8b9--2017-02-06--Josh Partlow
+1	1	Gemfile
+
+--fc7d1a6--2017-02-03--Josh Partlow
+1	1	files/mcollective/plugins/agent/package.ddl
+8	3	files/mcollective/plugins/agent/puppet.ddl
+17	3	files/mcollective/plugins/agent/puppet.rb
+7	1	files/mcollective/plugins/application/puppet.rb
+38	0	files/mcollective/plugins/data/package_data.ddl
+19	0	files/mcollective/plugins/data/package_data.rb
+5	0	files/mcollective/plugins/data/resource_data.ddl
+1	0	files/mcollective/plugins/data/resource_data.rb
+54	0	files/mcollective/plugins/mco_plugin_versions
+16	11	files/mcollective/plugins/util/puppet_agent_mgr.rb
+20	0	files/mcollective/plugins/validator/package_name.ddl
+9	0	files/mcollective/plugins/validator/package_name.rb
+2	0	spec/classes/agent/mcollective/server_spec.rb
+1	1	templates/mcollective/server.cfg.erb
+
+--05938dd--2017-02-02--Josh Partlow
+8	4	manifests/enterprise.pp
+2	2	manifests/enterprise/agent.pp
+1	3	manifests/enterprise/sync.pp
+1	1	spec/classes/enterprise/sync/configuration_spec.rb
+12	0	spec/classes/enterprise/sync_spec.rb
+14	0	spec/classes/enterprise_spec.rb
+
+--a2bc987--2017-02-02--Josh Partlow
+4	2	manifests/enterprise/sync.pp
+4	0	manifests/params.pp
+1	1	spec/classes/enterprise_spec.rb
+
+--3b1d19a--2017-02-02--Josh Partlow
+0	7	spec/classes/enterprise_spec.rb
+
+--beaba04--2017-01-31--Josh Partlow
+2	2	manifests/agent.pp
+9	1	manifests/init.pp
+
+--5f3dcc8--2017-01-31--Josh Partlow
+0	7	lib/puppet/parser/functions/pe_compiling_server_aio_build.rb
+0	7	lib/puppet/parser/functions/pe_compiling_server_version.rb
+21	0	spec/functions/pe_compiling_server_aio_build_spec.rb
+21	0	spec/functions/pe_compiling_server_version.rb
+
+--7c5dcb5--2017-01-31--Josh Partlow
+22	0	lib/puppet/parser/functions/pe_compiling_server_aio_build.rb
+22	0	lib/puppet/parser/functions/pe_compiling_server_version.rb
+
+--c67122b--2017-01-30--Josh Partlow
+0	9	lib/puppet/functions/pe_use_meep_for_classification.rb
+0	13	manifests/enterprise/repo.pp
+0	3	manifests/enterprise/repo/config.pp
+0	3	manifests/init.pp
+2	7	manifests/params.pp
+0	3	spec/fixtures/hiera/mono/conf.d/pe.conf
+0	3	spec/fixtures/hiera/split/conf.d/pe.conf
+0	63	spec/functions/pe_use_meep_for_classification_spec.rb
+
+--ce7c220--2017-01-09--Josh Partlow
+9	0	lib/puppet/functions/pe_use_meep_for_classification.rb
+1	2	manifests/enterprise/repo.pp
+1	2	manifests/enterprise/repo/config.pp
+1	2	manifests/params.pp
+63	0	spec/functions/pe_use_meep_for_classification_spec.rb
+
+--ee8d225--2017-01-09--Josh Partlow
+10	10	lib/puppet_x/puppetlabs/meep/config.rb
+3	3	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--a2be498--2016-12-30--Josh Partlow
+10	0	manifests/agent.pp
+23	0	spec/classes/agent_spec.rb
+
+--79444b2--2016-12-29--Josh Partlow
+2	3	manifests/agent/mcollective.pp
+13	0	spec/classes/agent/mcollective_spec.rb
+
+--1b41f64--2016-12-28--Josh Partlow
+1	0	manifests/agent/mcollective/server.pp
+9	1	spec/classes/agent/mcollective/server_spec.rb
+1	1	templates/mcollective/server.cfg.erb
+
+--35df87a--2016-12-27--Josh Partlow
+1	0	Gemfile
+13	0	lib/facter/aio_agent_build.rb
+24	0	lib/facter/aio_agent_version.rb
+13	0	lib/facter/pe_build.rb
+16	0	lib/facter/pe_server_version.rb
+7	0	lib/facter/windows.rb
+19	0	lib/shared/aio_build.rb
+14	0	lib/shared/pe_build.rb
+13	0	lib/shared/pe_server_version.rb
+60	0	spec/unit/facter/aio_agent_version_spec.rb
+8	0	spec/unit/facter/windows_spec.rb
+34	0	spec/unit/shared/aio_build_spec.rb
+49	0	spec/unit/shared/pe_build_spec.rb
+34	0	spec/unit/shared/pe_server_version_spec.rb
+
+--acbabbf--2016-12-27--Josh Partlow
+26	0	lib/puppet/parser/functions/build_mcollective_metadata_cron_minute_array.rb
+29	0	lib/puppet/parser/functions/pe_any2array.rb
+18	0	lib/puppet/parser/functions/pe_build_version.rb
+34	0	lib/puppet/parser/functions/pe_chomp.rb
+27	0	lib/puppet/parser/functions/pe_empty.rb
+8	0	lib/puppet/parser/functions/pe_generate_password.rb
+40	0	lib/puppet/parser/functions/pe_join.rb
+34	0	lib/puppet/parser/functions/pe_merge.rb
+32	0	lib/puppet/parser/functions/pe_pick.rb
+46	0	lib/puppet/parser/functions/pe_size.rb
+32	0	spec/functions/build_mcollective_metadata_cron_minute_array_spec.rb
+11	0	spec/functions/pe_generate_password_spec.rb
+
+--149da98--2016-12-27--Josh Partlow
+2	7	manifests/agent/mcollective.pp
+15	17	manifests/agent/mcollective/server.pp
+2	2	spec/classes/agent/mcollective/server_spec.rb
+3	0	types/action_policy.pp
+2	0	types/loglevel.pp
+
+--c258c00--2016-12-24--Josh Partlow
+2	2	types/pe_version.pp
+
+--425e796--2016-12-24--Josh Partlow
+5	7	lib/puppet_x/puppetlabs/meep/config.rb
+
+--a253bd9--2016-12-22--Josh Partlow
+25	2	lib/puppet/functions/pe_infrastructure/data.rb
+11	9	lib/puppet_x/puppetlabs/meep/config.rb
+45	28	manifests/agent/mcollective.pp
+3	3	manifests/agent/mcollective/cleanup.pp
+47	50	manifests/agent/mcollective/server.pp
+23	28	manifests/agent/mcollective/server/certs.pp
+16	14	manifests/agent/mcollective/server/facter.pp
+9	9	manifests/agent/mcollective/server/logs.pp
+10	9	manifests/agent/mcollective/server/plugins.pp
+1	1	manifests/agent/mcollective/service.pp
+91	0	manifests/params.pp
+23	37	spec/classes/agent/mcollective/server/certs_spec.rb
+76	71	spec/classes/agent/mcollective/server/facter_spec.rb
+24	26	spec/classes/agent/mcollective/server/logs_spec.rb
+27	31	spec/classes/agent/mcollective/server/plugins_spec.rb
+103	60	spec/classes/agent/mcollective/server_spec.rb
+11	17	spec/classes/agent/mcollective/service_spec.rb
+8	6	spec/functions/data_spec.rb
+20	0	spec/shared/contexts.rb
+1	0	spec/spec_helper.rb
+9	9	templates/mcollective/server.cfg.erb
+
+--bd67795--2016-12-22--Josh Partlow
+11	13	lib/puppet/functions/pe_infrastructure/data.rb
+
+--0d2d130--2016-12-22--Josh Partlow
+118	45	README.md
+
+--6bf7335--2016-12-22--Josh Partlow
+5	0	UPDATING_MCO_PLUGINS.md
+195	0	files/mcollective/plugins/agent/package.ddl
+140	0	files/mcollective/plugins/agent/package.rb
+276	0	files/mcollective/plugins/agent/puppet.ddl
+276	0	files/mcollective/plugins/agent/puppet.rb
+67	0	files/mcollective/plugins/agent/puppetral.ddl
+69	0	files/mcollective/plugins/agent/puppetral.rb
+53	0	files/mcollective/plugins/agent/service.ddl
+69	0	files/mcollective/plugins/agent/service.rb
+21	0	files/mcollective/plugins/aggregate/boolean_summary.ddl
+40	0	files/mcollective/plugins/aggregate/boolean_summary.rb
+106	0	files/mcollective/plugins/application/package.rb
+375	0	files/mcollective/plugins/application/puppet.rb
+100	0	files/mcollective/plugins/application/service.rb
+58	0	files/mcollective/plugins/data/puppet_data.ddl
+21	0	files/mcollective/plugins/data/puppet_data.rb
+85	0	files/mcollective/plugins/data/resource_data.ddl
+37	0	files/mcollective/plugins/data/resource_data.rb
+33	0	files/mcollective/plugins/data/service_data.ddl
+15	0	files/mcollective/plugins/data/service_data.rb
+61	0	files/mcollective/plugins/mco_plugin_versions
+38	0	files/mcollective/plugins/registration/meta.rb
+9	0	files/mcollective/plugins/security/sshkey.ddl
+383	0	files/mcollective/plugins/security/sshkey.rb
+153	0	files/mcollective/plugins/util/actionpolicy.rb
+143	0	files/mcollective/plugins/util/package/base.rb
+141	0	files/mcollective/plugins/util/package/packagehelpers.rb
+80	0	files/mcollective/plugins/util/package/puppetpackage.rb
+138	0	files/mcollective/plugins/util/package/yumHelper.py
+47	0	files/mcollective/plugins/util/package/yumpackage.rb
+458	0	files/mcollective/plugins/util/puppet_agent_mgr.rb
+57	0	files/mcollective/plugins/util/puppet_agent_mgr/mgr_v2.rb
+74	0	files/mcollective/plugins/util/puppet_agent_mgr/mgr_v3.rb
+71	0	files/mcollective/plugins/util/puppet_agent_mgr/mgr_windows.rb
+97	0	files/mcollective/plugins/util/puppet_server_address_validation.rb
+248	0	files/mcollective/plugins/util/puppetrunner.rb
+73	0	files/mcollective/plugins/util/service/base.rb
+46	0	files/mcollective/plugins/util/service/puppetservice.rb
+17	0	files/mcollective/plugins/validator/puppet_resource_validator.ddl
+12	0	files/mcollective/plugins/validator/puppet_resource_validator.rb
+21	0	files/mcollective/plugins/validator/puppet_server_address_validator.ddl
+14	0	files/mcollective/plugins/validator/puppet_server_address_validator.rb
+16	0	files/mcollective/plugins/validator/puppet_tags_validator.ddl
+17	0	files/mcollective/plugins/validator/puppet_tags_validator.rb
+21	0	files/mcollective/plugins/validator/puppet_variable_validator.ddl
+17	0	files/mcollective/plugins/validator/puppet_variable_validator.rb
+20	0	files/mcollective/plugins/validator/service_name.ddl
+9	0	files/mcollective/plugins/validator/service_name.rb
+29	0	update_mco_plugins.sh
+
+--915bc99--2016-12-22--Josh Partlow
+67	0	manifests/agent/mcollective.pp
+95	0	manifests/agent/mcollective/cleanup.pp
+79	0	manifests/agent/mcollective/server.pp
+76	0	manifests/agent/mcollective/server/certs.pp
+105	0	manifests/agent/mcollective/server/facter.pp
+33	0	manifests/agent/mcollective/server/logs.pp
+29	0	manifests/agent/mcollective/server/plugins.pp
+11	0	manifests/agent/mcollective/service.pp
+71	0	spec/classes/agent/mcollective/server/certs_spec.rb
+168	0	spec/classes/agent/mcollective/server/facter_spec.rb
+61	0	spec/classes/agent/mcollective/server/logs_spec.rb
+64	0	spec/classes/agent/mcollective/server/plugins_spec.rb
+138	0	spec/classes/agent/mcollective/server_spec.rb
+28	0	spec/classes/agent/mcollective/service_spec.rb
+114	0	spec/classes/agent/mcollective_spec.rb
+6	0	templates/mcollective/refresh-mcollective-metadata.bat.erb
+15	0	templates/mcollective/refresh-mcollective-metadata.erb
+111	0	templates/mcollective/server.cfg.erb
+
+--efeaac4--2016-12-21--Josh Partlow
+2	2	Gemfile
+4	5	spec/functions/data_spec.rb
+3	3	spec/functions/pe_infrastructure_nodes_spec.rb
+5	0	spec/functions/pe_meep_is_executing_spec.rb
+1	1	spec/functions/pe_services_list_spec.rb
+
+--5ebf19c--2016-12-20--Josh Partlow
+11	5	manifests/enterprise/repo/config.pp
+121	70	spec/classes/enterprise/repo/config_spec.rb
+
+--b1df56f--2016-12-20--Josh Partlow
+38	6	manifests/enterprise/repo.pp
+61	94	manifests/enterprise/repo/config.pp
+0	103	spec/classes/enterprise/repo/config_spec.rb
+159	0	spec/classes/enterprise/repo_spec.rb
+
+--bc44de4--2016-12-20--Josh Partlow
+15	0	lib/puppet/functions/pe_is_bootstrapping_to.rb
+19	0	lib/puppet_x/puppetlabs/meep/config.rb
+20	0	spec/functions/pe_is_bootstrapping_to_spec.rb
+17	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--66990a8--2016-12-20--Josh Partlow
+58	47	README.md
+3	3	lib/puppet/functions/pe_infrastructure/data.rb
+11	11	lib/puppet_x/puppetlabs/meep/config.rb
+6	5	manifests/agent/meep.pp
+12	0	manifests/agent/meep/stages.pp
+17	0	manifests/enterprise.pp
+13	0	manifests/enterprise/agent.pp
+66	0	manifests/enterprise/repo.pp
+154	0	manifests/enterprise/repo/config.pp
+16	0	manifests/enterprise/repo/stages.pp
+40	0	manifests/enterprise/shims.pp
+38	0	manifests/enterprise/sync.pp
+20	0	manifests/enterprise/sync/configuration.pp
+0	20	manifests/enterprise_conf_sync.pp
+0	17	manifests/infrastructure.pp
+0	13	manifests/infrastructure/agent.pp
+0	66	manifests/infrastructure/repo.pp
+0	154	manifests/infrastructure/repo/config.pp
+0	16	manifests/infrastructure/repo/stages.pp
+0	37	manifests/infrastructure/sync.pp
+13	5	manifests/init.pp
+0	43	manifests/puppet_infra_shims.pp
+0	12	manifests/stages.pp
+0	2	manifests/symlinks.pp
+2	2	spec/classes/agent/meep_spec.rb
+210	0	spec/classes/enterprise/repo/config_spec.rb
+41	0	spec/classes/enterprise/shims_spec.rb
+25	0	spec/classes/enterprise/sync/configuration_spec.rb
+0	25	spec/classes/enterprise_conf_sync_spec.rb
+21	0	spec/classes/enterprise_spec.rb
+0	210	spec/classes/infrastructure/repo/config_spec.rb
+0	21	spec/classes/infrastructure_spec.rb
+0	41	spec/classes/puppet_infra_shims_spec.rb
+1	1	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+2	2	spec/functions/data_spec.rb
+4	4	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--0352ca4--2016-12-20--Josh Partlow
+5	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--d488db1--2016-12-20--Josh Partlow
+4	3	lib/puppet_x/puppetlabs/meep/config.rb
+
+--b0627a6--2016-12-20--Josh Partlow
+3	3	lib/puppet/functions/pe_infrastructure/data.rb
+0	2	manifests/agent/meep.pp
+0	66	manifests/agent/repo.pp
+0	154	manifests/agent/repo/config.pp
+0	16	manifests/agent/repo/stages.pp
+2	0	manifests/infrastructure.pp
+66	0	manifests/infrastructure/repo.pp
+154	0	manifests/infrastructure/repo/config.pp
+16	0	manifests/infrastructure/repo/stages.pp
+0	210	spec/classes/agent/repo/config_spec.rb
+210	0	spec/classes/infrastructure/repo/config_spec.rb
+2	2	spec/functions/data_spec.rb
+
+--b562b82--2016-12-19--Josh Partlow
+1	0	Gemfile
+12	0	lib/puppet/functions/pe_infrastructure/data.rb
+2	4	manifests/agent/meep.pp
+41	7	manifests/agent/repo.pp
+46	7	manifests/agent/repo/config.pp
+1	1	manifests/agent/repo/stages.pp
+25	1	metadata.json
+0	6	spec/classes/agent/meep_spec.rb
+150	76	spec/classes/agent/repo/config_spec.rb
+2	0	spec/fixtures/hiera/mono/conf.d/pe.conf
+3	0	spec/fixtures/hiera/split/conf.d/pe.conf
+3	0	spec/spec_helper.rb
+3	0	types/pe_version.pp
+
+--cf63db9--2016-12-19--Josh Partlow
+30	2	lib/puppet/functions/pe_infrastructure/data.rb
+5	0	lib/puppet_x/puppetlabs/meep/config.rb
+2	2	manifests/agent.pp
+15	10	spec/functions/data_spec.rb
+
+--5590bbe--2016-12-14--Josh Partlow
+100	0	lib/facter/platform_tag.rb
+32	0	manifests/agent/repo.pp
+115	0	manifests/agent/repo/config.pp
+16	0	manifests/agent/repo/stages.pp
+136	0	spec/classes/agent/repo/config_spec.rb
+
+--7cb2db3--2016-12-13--Josh Partlow
+1	1	manifests/agent.pp
+43	0	manifests/agent/pxp_agent.pp
+9	0	manifests/agent/pxp_agent/service.pp
+11	0	manifests/params.pp
+96	0	spec/classes/agent/pxp_agent_spec.rb
+8	8	spec/classes/agent_spec.rb
+
+--b552628--2016-12-13--Josh Partlow
+24	0	lib/facter/platform_symlink_writable.rb
+1	1	manifests/agent.pp
+81	0	manifests/symlinks.pp
+16	30	spec/classes/agent_spec.rb
+46	0	spec/classes/symlinks_spec.rb
+
+--85f5519--2016-12-13--Josh Partlow
+3	0	.fixtures.yml
+61	5	manifests/agent.pp
+31	0	manifests/params.pp
+3	1	metadata.json
+1	2	spec/classes/agent/meep_spec.rb
+207	0	spec/classes/agent_spec.rb
+3	2	spec/spec_helper.rb
+
+--eb7faf0--2016-12-19--Josh Partlow
+2	2	lib/puppet_x/puppetlabs/meep/config.rb
+0	18	lib/puppet_x/puppetlabs/meep/meep_scope.rb
+29	0	lib/puppet_x/puppetlabs/meep/scope.rb
+
+--cd53bf2--2017-02-01--Josh Partlow
+--41fbe7b--2017-02-01--Britt Gresham
+--f5aec70--2017-02-01--Josh Partlow
+--1c35a67--2017-02-01--Britt Gresham
+--c7006f9--2017-02-01--Britt Gresham
+--40a0b4a--2017-02-01--Josh Partlow
+1	1	Gemfile
+0	1	spec/functions/pe_is_node_a_spec.rb
+
+--3b3d848--2017-01-31--Britt Gresham
+--af5924d--2017-01-30--Josh Partlow
+1	6	manifests/init.pp
+
+--5fe6bca--2017-01-23--Brandon High
+--0bcc555--2017-01-23--Josh Partlow
+1	1	Gemfile
+1	1	metadata.json
+
+--591581f--2016-12-16--Josh Partlow
+--ef8bdeb--2016-12-14--Britt Gresham
+0	18	lib/meep_hiera/meep_scope.rb
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+18	0	lib/puppet_x/puppetlabs/meep/meep_scope.rb
+57	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--1cfddae--2016-12-12--Britt Gresham
+18	0	lib/meep_hiera/meep_scope.rb
+4	1	lib/puppet_x/puppetlabs/meep/config.rb
+
+--1aa96ae--2016-12-12--Britt Gresham
+17	0	lib/puppet_x/puppetlabs/meep/config.rb
+
+--78ad19a--2016-12-15--Britt Gresham
+--7e74242--2016-12-15--Josh Partlow
+2	1	manifests/agent/meep/run.pp
+2	1	spec/classes/agent/meep_spec.rb
+
+--4362c41--2016-12-14--Josh Partlow
+22	15	lib/puppet_x/puppetlabs/meep/config.rb
+
+--188bfbd--2016-12-12--Brandon High
+--85b7239--2016-12-12--John McCabe
+--7e97da1--2016-12-07--John McCabe
+--d110481--2016-12-07--Josh Partlow
+1	1	Gemfile
+
+--569cbce--2016-12-06--Josh Partlow
+2	2	manifests/agent.pp
+4	0	manifests/agent/meep.pp
+1	0	manifests/infrastructure/sync.pp
+1	0	spec/classes/agent/meep_spec.rb
+1	0	spec/classes/infrastructure_spec.rb
+
+--20d2fce--2016-12-05--Josh Partlow
+11	1	lib/puppet_x/puppetlabs/meep/config.rb
+33	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--54a3cea--2016-12-06--Matthaus Owens
+--f8515bc--2016-12-02--Britt Gresham
+--398bfa5--2016-12-01--Josh Partlow
+3	3	lib/puppet_x/puppetlabs/meep/config/modify.rb
+
+--6e8da50--2016-12-01--Josh Partlow
+2	1	Gemfile
+
+--83b1c3e--2016-12-01--Josh Partlow
+3	0	lib/puppet_x/puppetlabs/meep/config.rb
+66	6	lib/puppet_x/puppetlabs/meep/config/modify.rb
+163	32	spec/unit/puppet_x/puppetlabs/meep/config/modify_spec.rb
+
+--d9d99c4--2016-12-01--Josh Partlow
+0	1	lib/puppet_x/puppetlabs/meep/config/modify.rb
+0	1	spec/unit/puppet_x/puppetlabs/meep/config/modify_spec.rb
+
+--0f6ea80--2016-11-30--Josh Partlow
+4	0	manifests/infrastructure/sync.pp
+
+--90f29d7--2016-11-30--Josh Partlow
+162	46	lib/puppet_x/puppetlabs/meep/config/modify.rb
+122	2	spec/unit/puppet_x/puppetlabs/meep/config/modify_spec.rb
+
+--3670756--2016-11-30--Josh Partlow
+7	0	README.md
+23	118	lib/puppet_x/puppetlabs/meep/config.rb
+127	0	lib/puppet_x/puppetlabs/meep/config/modify.rb
+497	0	spec/unit/puppet_x/puppetlabs/meep/config/modify_spec.rb
+0	481	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--ded5e75--2016-11-30--Josh Partlow
+23	0	lib/puppet_x/puppetlabs/meep/config.rb
+91	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--00cc819--2016-11-30--Josh Partlow
+27	0	lib/puppet_x/puppetlabs/meep/config.rb
+114	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--fe24869--2016-11-29--Josh Partlow
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+1	1	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+
+--b10f07d--2016-11-29--Josh Partlow
+71	0	lib/puppet_x/puppetlabs/meep/config.rb
+276	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--9523010--2016-11-29--Josh Partlow
+1	0	lib/puppet_x/puppetlabs/meep/config.rb
+
+--93ec34c--2016-11-29--Josh Partlow
+1	1	manifests/agent/meep/run.pp
+1	1	spec/classes/agent/meep_spec.rb
+
+--0d7908a--2016-11-28--Josh Partlow
+15	1	manifests/infrastructure/sync.pp
+1	0	spec/classes/infrastructure_spec.rb
+1	0	spec/spec_helper.rb
+
+--ac49cd1--2016-11-22--Josh Partlow
+40	1	README.md
+11	11	lib/puppet_x/puppetlabs/meep/config.rb
+0	2	manifests/agent.pp
+5	3	manifests/agent/meep.pp
+9	7	manifests/infrastructure.pp
+13	0	manifests/infrastructure/agent.pp
+18	0	manifests/infrastructure/sync.pp
+6	2	manifests/init.pp
+9	5	spec/classes/agent/meep_spec.rb
+8	1	spec/classes/infrastructure_spec.rb
+1	1	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+4	4	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--06be635--2016-11-21--Josh Partlow
+3	2	manifests/puppet_infra_shims.pp
+
+--9d88f52--2016-11-21--Josh Partlow
+6	1	manifests/enterprise_conf_sync.pp
+
+--238a867--2016-11-21--Josh Partlow
+4	2	manifests/agent/meep/run.pp
+
+--c1f6959--2016-11-18--Josh Partlow
+11	22	lib/puppet_x/puppetlabs/meep/config.rb
+5	0	manifests/agent.pp
+1	1	manifests/infrastructure.pp
+1	2	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+4	8	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--8fcdb1d--2016-11-18--Josh Partlow
+9	2	manifests/agent/meep.pp
+8	1	manifests/agent/meep/run.pp
+10	1	spec/classes/agent/meep/run_spec.rb
+
+--ed2eab4--2016-11-18--Josh Partlow
+11	0	lib/puppet/functions/pe_meep_is_executing.rb
+19	0	lib/puppet_x/puppetlabs/meep/config.rb
+4	2	manifests/agent/meep/run.pp
+24	0	spec/classes/agent/meep/run_spec.rb
+0	1	spec/classes/agent/meep_spec.rb
+20	0	spec/functions/pe_meep_is_executing_spec.rb
+12	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--1ac2c69--2016-11-15--Josh Partlow
+26	0	manifests/agent/meep.pp
+12	0	manifests/agent/meep/run.pp
+0	5	manifests/infrastructure.pp
+0	9	manifests/infrastructure/meep.pp
+27	0	spec/classes/agent/meep_spec.rb
+0	11	spec/classes/infrastructure/meep_spec.rb
+1	5	spec/classes/infrastructure_spec.rb
+
+--ff0f4cb--2016-11-15--Josh Partlow
+4	0	manifests/agent.pp
+18	0	manifests/infrastructure.pp
+9	0	manifests/infrastructure/meep.pp
+12	0	manifests/stages.pp
+11	0	spec/classes/infrastructure/meep_spec.rb
+16	0	spec/classes/infrastructure_spec.rb
+
+--30a2c25--2016-11-11--Russell Mull
+--c0275f0--2016-11-11--Andrew Roetker
+1	1	manifests/puppet_infra_shims.pp
+2	2	spec/classes/puppet_infra_shims_spec.rb
+
+--8de5635--2016-11-09--John McCabe
+--f09b197--2016-11-07--Josh Partlow
+118	0	lib/meep_hiera.rb
+360	0	lib/meep_hiera/backend.rb
+70	0	lib/meep_hiera/backend/hocon_backend.rb
+58	0	lib/meep_hiera/backend/json_backend.rb
+63	0	lib/meep_hiera/backend/yaml_backend.rb
+91	0	lib/meep_hiera/config.rb
+13	0	lib/meep_hiera/console_logger.rb
+4	0	lib/meep_hiera/error.rb
+41	0	lib/meep_hiera/fallback_logger.rb
+86	0	lib/meep_hiera/filecache.rb
+121	0	lib/meep_hiera/interpolate.rb
+8	0	lib/meep_hiera/noop_logger.rb
+17	0	lib/meep_hiera/puppet_logger.rb
+20	0	lib/meep_hiera/recursive_guard.rb
+73	0	lib/meep_hiera/util.rb
+89	0	lib/meep_hiera/version.rb
+3	3	lib/puppet_x/puppetlabs/meep/config.rb
+91	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--f76370b--2016-11-07--Josh Partlow
+1	12	manifests/enterprise_conf_sync.pp
+
+--be57402--2016-11-02--Josh Partlow
+15	6	lib/puppet_x/puppetlabs/meep/config.rb
+4	4	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--cc836df--2016-11-02--Josh Partlow
+16	4	manifests/enterprise_conf_sync.pp
+
+--fa08cfc--2016-11-02--Josh Partlow
+1	1	spec/functions/pe_is_node_a_spec.rb
+
+--afdcf38--2016-11-02--Josh Partlow
+2	3	manifests/enterprise_conf_sync.pp
+
+--d483016--2016-11-02--Josh Partlow
+7	0	lib/puppet/functions/meep_function.rb
+21	0	lib/puppet/functions/pe_is_meep_master.rb
+1	0	lib/puppet/functions/pe_is_node_a.rb
+3	4	lib/puppet/functions/pe_meep_master.rb
+58	0	spec/functions/pe_is_meep_master_spec.rb
+
+--e874f8a--2016-11-02--Josh Partlow
+1	1	spec/fixtures/hiera/mono/conf.d/pe.conf
+18	0	spec/functions/pe_meep_master_spec.rb
+
+--674f657--2016-11-01--Josh Partlow
+33	22	lib/puppet_x/puppetlabs/meep/config.rb
+18	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--fa3fc86--2016-11-01--Josh Partlow
+1	1	Gemfile
+
+--ba63037--2016-11-01--John McCabe
+--3065e57--2016-11-01--Josh Partlow
+1	1	metadata.json
+
+--2bb3fb9--2016-11-01--Josh Partlow
+--7c15699--2016-11-01--Eric Williamson
+--791bfe3--2016-11-01--Josh Partlow
+1	1	metadata.json
+
+--f486300--2016-11-01--Josh Partlow
+1	1	metadata.json
+
+--aef3c4f--2016-11-01--Josh Partlow
+5	1	Gemfile
+
+--c3189c2--2016-10-31--Josh Partlow
+1	1	metadata.json
+
+--7a22443--2016-10-28--Josh Partlow
+0	3	.fixtures.yml
+70	0	lib/hiera/backend/hocon_backend.rb
+
+--0aa4ca2--2016-10-26--Josh Partlow
+11	11	lib/puppet_x/puppetlabs/meep/config.rb
+1	1	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+4	4	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--a9d81f5--2016-10-18--Josh Partlow
+8	0	lib/puppet_x/puppetlabs/meep/config.rb
+1	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--ddf6a09--2016-10-18--Josh Partlow
+2	1	Gemfile
+0	59	spec/shared/contexts.rb
+0	37	spec/shared/custom_hieradata.rb
+1	3	spec/spec_helper.rb
+
+--c928cec--2016-10-12--Josh Partlow
+67	0	lib/puppet_x/puppetlabs/meep/config.rb
+92	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--59ed340--2016-10-19--John McCabe
+--e92fe33--2016-10-19--Josh Partlow
+3	2	manifests/enterprise_conf_sync.pp
+4	1	spec/classes/enterprise_conf_sync_spec.rb
+
+--1707edc--2016-10-18--Josh Partlow
+--87a8aa7--2016-10-18--Josh Partlow
+2	0	lib/puppet/functions/pe_meep_master.rb
+
+--310be19--2016-10-18--John McCabe
+2	2	spec/classes/enterprise_conf_sync_spec.rb
+
+--1729784--2016-10-13--Josh Partlow
+0	1	manifests/init.pp
+1	1	spec/classes/enterprise_conf_sync_spec.rb
+
+--f614ba0--2016-10-12--Josh Partlow
+1	1	manifests/enterprise_conf_sync.pp
+
+--198467f--2016-10-12--Josh Partlow
+3	8	spec/classes/enterprise_conf_sync_spec.rb
+0	9	spec/shared/contexts.rb
+
+--20222af--2016-10-12--Josh Partlow
+20	16	spec/shared/contexts.rb
+
+--19efc6d--2016-10-11--John McCabe
+0	1	manifests/enterprise_conf_sync.pp
+
+--8ce087b--2016-10-11--John McCabe
+3	6	manifests/enterprise_conf_sync.pp
+1	1	spec/classes/enterprise_conf_sync_spec.rb
+
+--2e99e93--2016-09-29--John McCabe
+1	2	manifests/enterprise_conf_sync.pp
+17	10	spec/classes/enterprise_conf_sync_spec.rb
+4	0	spec/classes/init_spec.rb
+9	0	spec/shared/contexts.rb
+
+--5dd2b22--2016-09-26--John McCabe
+14	17	manifests/enterprise_conf_sync.pp
+2	1	manifests/init.pp
+
+--9e8f1d5--2016-07-26--Brandon High
+22	0	manifests/enterprise_conf_sync.pp
+1	1	manifests/init.pp
+20	0	spec/classes/enterprise_conf_sync_spec.rb
+
+--006a980--2016-10-17--Eric Williamson
+--cf88a83--2016-10-12--Andrew Roetker
+6	0	files/puppet-infrastructure
+42	0	manifests/puppet_infra_shims.pp
+1	0	spec/classes/init_spec.rb
+41	0	spec/classes/puppet_infra_shims_spec.rb
+
+--d7c2372--2016-10-14--mwbutcher
+--5aa1627--2016-10-13--John McCabe
+--b3e081d--2016-10-13--Josh Partlow
+30	0	spec/functions/pe_meep_master_spec.rb
+
+--6882690--2016-10-13--Josh Partlow
+0	84	lib/puppet_x/puppetlabs/meep/config.rb
+0	73	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--c275b07--2016-10-13--Brandon High
+--6579852--2016-10-13--Josh Partlow
+1	0	lib/puppet/functions/meep_function.rb
+1	1	lib/puppet/functions/pe_infrastructure/data.rb
+1	0	lib/puppet/functions/pe_infrastructure_nodes.rb
+3	3	lib/puppet/functions/pe_is_infrastructure.rb
+5	16	lib/puppet/functions/pe_is_node_a.rb
+1	0	lib/puppet/functions/pe_list_certificate_authority_nodes.rb
+1	0	lib/puppet/functions/pe_list_compile_master_nodes.rb
+1	0	lib/puppet/functions/pe_list_console_nodes.rb
+1	0	lib/puppet/functions/pe_list_database_nodes.rb
+1	0	lib/puppet/functions/pe_list_enabled_replica_nodes.rb
+1	0	lib/puppet/functions/pe_list_mco_broker_nodes.rb
+1	0	lib/puppet/functions/pe_list_mco_hub_nodes.rb
+1	0	lib/puppet/functions/pe_list_orchestrator_nodes.rb
+1	0	lib/puppet/functions/pe_list_primary_master_nodes.rb
+1	0	lib/puppet/functions/pe_list_provisioned_replica_nodes.rb
+1	0	lib/puppet/functions/pe_list_puppetdb_nodes.rb
+3	0	lib/puppet/functions/pe_meep_master.rb
+4	4	lib/puppet/functions/pe_role.rb
+1	0	lib/puppet/functions/pe_services_list.rb
+18	3	lib/puppet_x/puppetlabs/meep/config.rb
+5	0	manifests/init.pp
+
+--747e23e--2016-10-13--Josh Partlow
+1	0	Gemfile
+
+--7259571--2016-10-12--mwbutcher
+--2e80699--2016-10-12--Brandon High
+1	2	metadata.json
+
+--ccca182--2016-10-12--Josh Partlow
+2	5	README.md
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+7	7	spec/functions/pe_services_list_spec.rb
+5	5	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--6d8dd63--2016-10-10--Josh Partlow
+17	0	lib/puppet/functions/pe_list_certificate_authority_nodes.rb
+11	0	lib/puppet/functions/pe_list_compile_master_nodes.rb
+0	15	lib/puppet/functions/pe_list_master_nodes.rb
+11	0	lib/puppet/functions/pe_list_mco_broker_nodes.rb
+11	0	lib/puppet/functions/pe_list_mco_hub_nodes.rb
+15	0	lib/puppet/functions/pe_list_primary_master_nodes.rb
+14	0	spec/functions/pe_list_certificate_authority_nodes_spec.rb
+14	0	spec/functions/pe_list_compile_master_nodes_spec.rb
+4	3	spec/functions/pe_list_console_nodes_spec.rb
+4	3	spec/functions/pe_list_database_nodes_spec.rb
+4	3	spec/functions/pe_list_enabled_replica_nodes_spec.rb
+0	13	spec/functions/pe_list_master_nodes_spec.rb
+14	0	spec/functions/pe_list_mco_broker_nodes_spec.rb
+14	0	spec/functions/pe_list_mco_hub_nodes_spec.rb
+4	3	spec/functions/pe_list_orchestrator_nodes_spec.rb
+14	0	spec/functions/pe_list_primary_master_spec.rb
+4	3	spec/functions/pe_list_provisioned_replica_nodes_spec.rb
+4	3	spec/functions/pe_list_puppetdb_nodes_spec.rb
+8	3	spec/shared/examples.rb
+
+--dc97922--2016-10-10--Josh Partlow
+17	4	README.md
+15	0	lib/puppet/functions/pe_infrastructure_nodes.rb
+19	0	lib/puppet/functions/pe_is_infrastructure.rb
+47	0	spec/functions/pe_infrastructure_nodes_spec.rb
+37	0	spec/functions/pe_is_infrastructure_spec.rb
+
+--287cb42--2016-10-10--Josh Partlow
+19	1	lib/puppet_x/puppetlabs/meep/config.rb
+56	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--d090f63--2016-10-07--Josh Partlow
+18	17	lib/puppet_x/puppetlabs/meep/config.rb
+
+--0cbd9ea--2016-10-07--Josh Partlow
+25	20	lib/puppet/functions/pe_services_list.rb
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+
+--430a93c--2016-10-06--Josh Partlow
+1	1	.fixtures.yml
+
+--6bc243f--2016-10-06--Josh Partlow
+1	1	lib/puppet/functions/pe_infrastructure/data.rb
+27	13	lib/puppet_x/puppetlabs/meep/config.rb
+6	0	spec/functions/data_spec.rb
+
+--05dae40--2016-10-06--Josh Partlow
+44	11	README.md
+29	50	lib/puppet_x/puppetlabs/meep/config.rb
+
+--ff9b509--2016-10-06--Josh Partlow
+0	69	lib/puppet_x/puppetlabs/meep/config.rb
+15	0	spec/fixtures/hiera/custom-roles/conf.d/pe.conf
+8	0	spec/fixtures/hiera/custom-roles/hiera.yaml
+13	0	spec/fixtures/hiera/external-services/conf.d/pe.conf
+8	0	spec/fixtures/hiera/external-services/hiera.yaml
+0	96	spec/fixtures/hiera/legacy/mono/conf.d/pe.conf
+0	8	spec/fixtures/hiera/legacy/mono/hiera.yaml
+0	1	spec/fixtures/hiera/legacy/overrides/conf.d/nodes/puppetdb2.rspec.conf
+0	11	spec/fixtures/hiera/legacy/overrides/conf.d/pe.conf
+0	8	spec/fixtures/hiera/legacy/overrides/hiera.yaml
+0	7	spec/fixtures/hiera/legacy/replica/conf.d/pe.conf
+0	8	spec/fixtures/hiera/legacy/replica/hiera.yaml
+0	10	spec/fixtures/hiera/legacy/split/conf.d/pe.conf
+0	8	spec/fixtures/hiera/legacy/split/hiera.yaml
+175	0	spec/fixtures/hiera/mono/conf.d/pe.conf
+8	0	spec/fixtures/hiera/mono/hiera.yaml
+0	15	spec/fixtures/hiera/node-roles/custom-roles/conf.d/pe.conf
+0	8	spec/fixtures/hiera/node-roles/custom-roles/hiera.yaml
+0	13	spec/fixtures/hiera/node-roles/external-services/conf.d/pe.conf
+0	8	spec/fixtures/hiera/node-roles/external-services/hiera.yaml
+0	175	spec/fixtures/hiera/node-roles/mono/conf.d/pe.conf
+0	8	spec/fixtures/hiera/node-roles/mono/hiera.yaml
+0	1	spec/fixtures/hiera/node-roles/overrides/conf.d/nodes/puppetdb2.rspec.conf
+0	10	spec/fixtures/hiera/node-roles/overrides/conf.d/pe.conf
+0	8	spec/fixtures/hiera/node-roles/overrides/hiera.yaml
+0	14	spec/fixtures/hiera/node-roles/replica/conf.d/pe.conf
+0	8	spec/fixtures/hiera/node-roles/replica/hiera.yaml
+0	12	spec/fixtures/hiera/node-roles/split/conf.d/pe.conf
+0	8	spec/fixtures/hiera/node-roles/split/hiera.yaml
+1	0	spec/fixtures/hiera/overrides/conf.d/nodes/puppetdb2.rspec.conf
+10	0	spec/fixtures/hiera/overrides/conf.d/pe.conf
+8	0	spec/fixtures/hiera/overrides/hiera.yaml
+14	0	spec/fixtures/hiera/replica/conf.d/pe.conf
+8	0	spec/fixtures/hiera/replica/hiera.yaml
+12	0	spec/fixtures/hiera/split/conf.d/pe.conf
+8	0	spec/fixtures/hiera/split/hiera.yaml
+0	1	spec/functions/data_spec.rb
+0	1	spec/functions/pe_is_node_a_spec.rb
+0	1	spec/functions/pe_meep_master_spec.rb
+0	1	spec/functions/pe_role_spec.rb
+0	1	spec/functions/pe_services_list_spec.rb
+1	1	spec/shared/contexts.rb
+4	4	spec/shared/custom_hieradata.rb
+0	1	spec/shared/examples.rb
+490	532	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--53225e5--2016-10-06--Josh Partlow
+0	35	lib/puppet/functions/pe_has_component.rb
+35	0	lib/puppet/functions/pe_is_node_a.rb
+1	1	lib/puppet_x/puppetlabs/meep/config.rb
+0	107	spec/functions/pe_has_component_spec.rb
+107	0	spec/functions/pe_is_node_a_spec.rb
+1	1	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--e7ab676--2016-10-06--Josh Partlow
+16	0	lib/puppet/functions/pe_meep_master.rb
+21	0	spec/functions/pe_meep_master_spec.rb
+
+--5af9c44--2016-10-06--Josh Partlow
+1	1	lib/puppet/functions/meep_function.rb
+7	3	lib/puppet/functions/pe_has_component.rb
+1	1	lib/puppet/functions/pe_list_enabled_replica_nodes.rb
+1	1	lib/puppet/functions/pe_list_master_nodes.rb
+1	1	lib/puppet/functions/pe_list_provisioned_replica_nodes.rb
+442	247	lib/puppet_x/puppetlabs/meep/config.rb
+15	0	spec/fixtures/hiera/node-roles/custom-roles/conf.d/pe.conf
+8	0	spec/fixtures/hiera/node-roles/custom-roles/hiera.yaml
+13	0	spec/fixtures/hiera/node-roles/external-services/conf.d/pe.conf
+8	0	spec/fixtures/hiera/node-roles/external-services/hiera.yaml
+3	3	spec/fixtures/hiera/node-roles/mono/conf.d/pe.conf
+5	0	spec/fixtures/hiera/node-roles/replica/conf.d/pe.conf
+5	0	spec/fixtures/hiera/node-roles/split/conf.d/pe.conf
+18	18	spec/functions/pe_has_component_spec.rb
+109	98	spec/functions/pe_services_list_spec.rb
+37	0	spec/shared/custom_hieradata.rb
+1	1	spec/shared/examples.rb
+2	0	spec/spec_helper.rb
+592	166	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--7a87bc4--2016-09-27--Josh Partlow
+12	0	lib/puppet/functions/pe_infrastructure/data.rb
+51	0	lib/puppet_x/puppetlabs/meep/config.rb
+1	1	metadata.json
+40	0	spec/functions/data_spec.rb
+
+--32f9862--2016-09-27--Josh Partlow
+41	0	lib/puppet/functions/pe_role.rb
+25	0	spec/functions/pe_role_spec.rb
+
+--f23f3d8--2016-09-27--Josh Partlow
+23	1	lib/puppet_x/puppetlabs/meep/config.rb
+6	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--c7b50f3--2016-09-27--Josh Partlow
+14	14	lib/puppet_x/puppetlabs/meep/config.rb
+5	5	spec/fixtures/hiera/node-roles/mono/conf.d/pe.conf
+3	3	spec/fixtures/hiera/node-roles/overrides/conf.d/pe.conf
+2	2	spec/fixtures/hiera/node-roles/replica/conf.d/pe.conf
+3	3	spec/fixtures/hiera/node-roles/split/conf.d/pe.conf
+11	12	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--4a505a1--2016-09-14--Josh Partlow
+9	15	lib/puppet_x/puppetlabs/meep/config.rb
+
+--a9e40c8--2016-09-14--Josh Partlow
+140	32	lib/puppet_x/puppetlabs/meep/config.rb
+1	1	spec/fixtures/hiera/legacy/overrides/conf.d/nodes/puppetdb2.rspec.conf
+1	1	spec/fixtures/hiera/legacy/overrides/conf.d/pe.conf
+1	1	spec/fixtures/hiera/node-roles/overrides/conf.d/nodes/puppetdb2.rspec.conf
+1	1	spec/fixtures/hiera/node-roles/overrides/conf.d/pe.conf
+278	175	spec/functions/pe_services_list_spec.rb
+76	18	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--75bddb8--2016-09-14--Josh Partlow
+65	17	lib/puppet_x/puppetlabs/meep/config.rb
+9	9	spec/functions/pe_has_component_spec.rb
+1	1	spec/functions/pe_list_console_nodes_spec.rb
+1	1	spec/functions/pe_list_database_nodes_spec.rb
+1	1	spec/functions/pe_list_master_nodes_spec.rb
+1	2	spec/functions/pe_list_orchestrator_nodes_spec.rb
+1	1	spec/functions/pe_list_puppetdb_nodes_spec.rb
+0	1	spec/shared/contexts.rb
+1	0	spec/shared/examples.rb
+86	29	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--fd556a4--2016-09-09--Josh Partlow
+175	0	spec/fixtures/hiera/node-roles/mono/conf.d/pe.conf
+8	0	spec/fixtures/hiera/node-roles/mono/hiera.yaml
+1	0	spec/fixtures/hiera/node-roles/overrides/conf.d/nodes/puppetdb2.rspec.conf
+10	0	spec/fixtures/hiera/node-roles/overrides/conf.d/pe.conf
+8	0	spec/fixtures/hiera/node-roles/overrides/hiera.yaml
+9	0	spec/fixtures/hiera/node-roles/replica/conf.d/pe.conf
+8	0	spec/fixtures/hiera/node-roles/replica/hiera.yaml
+7	0	spec/fixtures/hiera/node-roles/split/conf.d/pe.conf
+8	0	spec/fixtures/hiera/node-roles/split/hiera.yaml
+
+--d3f8833--2016-09-09--Josh Partlow
+96	0	spec/fixtures/hiera/legacy/mono/conf.d/pe.conf
+8	0	spec/fixtures/hiera/legacy/mono/hiera.yaml
+1	0	spec/fixtures/hiera/legacy/overrides/conf.d/nodes/puppetdb2.rspec.conf
+11	0	spec/fixtures/hiera/legacy/overrides/conf.d/pe.conf
+8	0	spec/fixtures/hiera/legacy/overrides/hiera.yaml
+7	0	spec/fixtures/hiera/legacy/replica/conf.d/pe.conf
+8	0	spec/fixtures/hiera/legacy/replica/hiera.yaml
+10	0	spec/fixtures/hiera/legacy/split/conf.d/pe.conf
+8	0	spec/fixtures/hiera/legacy/split/hiera.yaml
+0	96	spec/fixtures/hiera/mono/conf.d/pe.conf
+0	8	spec/fixtures/hiera/mono/hiera.yaml
+0	1	spec/fixtures/hiera/overrides/conf.d/nodes/puppetdb2.rspec.conf
+0	11	spec/fixtures/hiera/overrides/conf.d/pe.conf
+0	8	spec/fixtures/hiera/overrides/hiera.yaml
+0	7	spec/fixtures/hiera/replica/conf.d/pe.conf
+0	8	spec/fixtures/hiera/replica/hiera.yaml
+0	10	spec/fixtures/hiera/split/conf.d/pe.conf
+0	8	spec/fixtures/hiera/split/hiera.yaml
+2	1	spec/shared/contexts.rb
+
+--363406c--2016-09-09--Josh Partlow
+1	1	lib/puppet/functions/pe_has_component.rb
+1	1	lib/puppet/functions/pe_list_console_nodes.rb
+1	1	lib/puppet/functions/pe_list_database_nodes.rb
+1	1	lib/puppet/functions/pe_list_enabled_replica_nodes.rb
+1	1	lib/puppet/functions/pe_list_master_nodes.rb
+1	1	lib/puppet/functions/pe_list_orchestrator_nodes.rb
+1	1	lib/puppet/functions/pe_list_provisioned_replica_nodes.rb
+1	1	lib/puppet/functions/pe_list_puppetdb_nodes.rb
+23	8	lib/puppet/functions/pe_services_list.rb
+97	46	lib/puppet_x/puppetlabs/meep/config.rb
+1	1	spec/fixtures/hiera/mono/conf.d/pe.conf
+1	37	spec/functions/pe_has_component_spec.rb
+1	5	spec/functions/pe_services_list_spec.rb
+43	0	spec/shared/contexts.rb
+2	5	spec/shared/examples.rb
+63	15	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--c92290f--2016-09-07--Josh Partlow
+4	0	.fixtures.yml
+59	3	lib/puppet_x/puppetlabs/meep/config.rb
+0	8	spec/fixtures/hiera/hiera.yaml
+8	0	spec/fixtures/hiera/mono/hiera.yaml
+8	0	spec/fixtures/hiera/overrides/hiera.yaml
+8	0	spec/fixtures/hiera/replica/hiera.yaml
+8	0	spec/fixtures/hiera/split/hiera.yaml
+1	1	spec/shared/contexts.rb
+8	0	spec/spec_helper.rb
+71	6	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--b03aa07--2016-08-30--Eric Williamson
+--736070e--2016-08-30--eric.williamson
+1	1	metadata.json
+
+--597d7c9--2016-08-12--Josh Partlow
+10	0	lib/puppet/functions/meep_function.rb
+17	6	lib/puppet/functions/pe_has_component.rb
+28	0	lib/puppet/functions/pe_services_list.rb
+192	60	lib/puppet_x/puppetlabs/meep/config.rb
+1	0	spec/fixtures/hiera/overrides/conf.d/nodes/puppetdb2.rspec.conf
+11	0	spec/fixtures/hiera/overrides/conf.d/pe.conf
+2	2	spec/fixtures/hiera/replica/conf.d/pe.conf
+104	40	spec/functions/pe_has_component_spec.rb
+1	1	spec/functions/pe_list_console_nodes_spec.rb
+1	1	spec/functions/pe_list_database_nodes_spec.rb
+1	1	spec/functions/pe_list_enabled_replica_nodes_spec.rb
+1	1	spec/functions/pe_list_master_nodes_spec.rb
+2	1	spec/functions/pe_list_orchestrator_nodes_spec.rb
+1	1	spec/functions/pe_list_provisioned_replica_nodes_spec.rb
+1	1	spec/functions/pe_list_puppetdb_nodes_spec.rb
+236	0	spec/functions/pe_services_list_spec.rb
+90	58	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--619aaeb--2016-08-12--Josh Partlow
+89	38	README.md
+
+--4555b25--2016-08-04--Josh Partlow
+20	0	lib/puppet/functions/pe_has_component.rb
+11	0	lib/puppet/functions/pe_list_console_nodes.rb
+11	0	lib/puppet/functions/pe_list_database_nodes.rb
+14	0	lib/puppet/functions/pe_list_enabled_replica_nodes.rb
+15	0	lib/puppet/functions/pe_list_master_nodes.rb
+13	0	lib/puppet/functions/pe_list_orchestrator_nodes.rb
+14	0	lib/puppet/functions/pe_list_provisioned_replica_nodes.rb
+11	0	lib/puppet/functions/pe_list_puppetdb_nodes.rb
+79	0	spec/functions/pe_has_component_spec.rb
+13	0	spec/functions/pe_list_console_nodes_spec.rb
+13	0	spec/functions/pe_list_database_nodes_spec.rb
+13	0	spec/functions/pe_list_enabled_replica_nodes_spec.rb
+13	0	spec/functions/pe_list_master_nodes_spec.rb
+13	0	spec/functions/pe_list_orchestrator_nodes_spec.rb
+13	0	spec/functions/pe_list_provisioned_replica_nodes_spec.rb
+13	0	spec/functions/pe_list_puppetdb_nodes_spec.rb
+29	0	spec/shared/examples.rb
+
+--569dd8e--2016-08-04--Josh Partlow
+2	1	Gemfile
+276	0	lib/puppet_x/puppetlabs/meep/config.rb
+8	0	spec/fixtures/hiera/hiera.yaml
+96	0	spec/fixtures/hiera/mono/conf.d/pe.conf
+7	0	spec/fixtures/hiera/replica/conf.d/pe.conf
+10	0	spec/fixtures/hiera/split/conf.d/pe.conf
+12	0	spec/shared/contexts.rb
+2	0	spec/spec_helper.rb
+106	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+
+--d71d625--2016-08-04--Josh Partlow
+3	0	spec/spec_helper.rb
+
+--c7254c5--2016-08-04--Josh Partlow
+3	0	.gitignore
+
+--6aad393--2016-07-15--Britt Gresham
+3	0	.fixtures.yml
+9	0	.travis.yml
+12	5	Gemfile
+1	4	spec/classes/init_spec.rb
+3	0	spec/fixtures/manifests/site.pp
+13	0	spec/spec_helper.rb
+
+--3be43d0--2016-07-15--Britt Gresham
+7	0	Gemfile
+79	0	README.md
+17	0	Rakefile
+3	0	manifests/init.pp
+13	0	metadata.json
+7	0	spec/classes/init_spec.rb
+1	0	spec/spec_helper.rb
+12	0	tests/init.pp
+--73442cf--2018-03-26--Josh Partlow
+8       1       lib/puppet_x/puppetlabs/meep/architecture.rb
+5       4       lib/puppet_x/puppetlabs/meep/defaults.rb
+1       2       lib/puppet_x/puppetlabs/meep/roles_generator.rb
+2       2       spec/fixtures/hiera/v2.0/custom-roles/conf.d/pe.conf
+2       2       spec/unit/puppet_x/puppetlabs/meep/architecture_spec.rb
+18      18      spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+2       2       spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
+

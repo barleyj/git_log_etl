@@ -1,0 +1,11 @@
+--92187e4--2018-03-26--Brandon High
+--abe02e9--2018-03-26--Josh Partlow
+20	6	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+0	0	spec/fixtures/manifests/site.pp
+20	0	spec/unit/puppet_x/puppetlabs/meep/config_spec.rb
+17	6	spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
+
+--a3bd7a2--2018-03-23--Josh Partlow
+2	17	lib/puppet_x/puppetlabs/meep/config.rb
+46	6	lib/puppet_x/puppetlabs/meep/roles_generator.rb
+50	3	spec/unit/puppet_x/puppetlabs/meep/roles_generator_spec.rb
